@@ -30,7 +30,7 @@ spec:
         app: polling-app
     spec:
       containers:
-      - image: jiajunngjj/polling-app
+      - image: nolan42/abcxyz:1.0.0
         name: polling-app
         ports:
         - containerPort: 8080
